@@ -12,7 +12,8 @@ int main() {
         printf("\n ===== File Editor =====\n");
         printf("1. View File\n");
         printf("2. Edit File\n");
-        printf("3. Exit\n");
+        printf("3. Delete File\n");
+        printf("4. Exit\n");
 
         // get user choice
         printf("Enter your choice: ");
@@ -26,12 +27,15 @@ int main() {
                 edit_file(file_name);
                 break;
             case 3:
+                delete_file(file_name);
+                break;
+            case 4:
                 printf("Goodbye! Exiting program...\n");
                 break;
             default: 
                 printf("Invalid choice! Please try again.\n");
         }
-    } while (choice != 3); // repeat until user chooses to exit
+    } while (choice != 4); // repeat until user chooses to exit
 
     return 0;
 }
