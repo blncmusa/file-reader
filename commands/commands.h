@@ -1,0 +1,7 @@
+#ifndef FILE_OPS_H
+#define FILE_OPS_H
+
+void view_file(const char *file_name);
+void edit_file(const char *file_name);
+
+#endif

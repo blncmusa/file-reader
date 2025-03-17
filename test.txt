@@ -1,0 +1,10 @@
+Hello, Mustafa!
+This is your first file being read in C.
+Line by line? Nah, letter by letter, baby.
+Let's gooo!
+Fuck You!
+
+lear
+bombaclaat
+It really works!
+interesting
