@@ -4,7 +4,7 @@
 void add_file(const char *file_name){
     FILE *fp;
 
-    fp = fopen(file_name, "W");
+    fp = fopen(file_name, "w");
     if(fp == NULL){
         printf("Error opening file.\n");
         return;
